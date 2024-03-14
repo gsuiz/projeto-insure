@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    font-family: karla, sans-serif;
+}
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+}   
+
+header{
+    width: 86%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link__item{
+    display: inline-block;
+    margin:0 15px;
+}
+
+.nav-link__item a{
+    color:hsl(216, 30%, 68%);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.nav-link__item a:hover{
+    color: black;
+}
+
+.item--menu{
+    display: none;
+}
+
+.nav-link__item a button{
+    color: black;
+    border: 2px solid black;
+    padding:8px 25px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.nav-link__item a button:hover{
+    background-color: black;
+    color: white;
+}
+
+.sec-one{
+    width: 100vw;
+    max-height: 75vh;
+    display: flex;
+    background-color: hsl(256, 26%, 20%);
+    padding: 5% 10% 3% 10%;
+}
+
+.wave-mobile{
+    display: none;
+}
+
+.wave-left-desk{
+    position: absolute;
+    top:400px;
+    width: 13vw;
+}
+
+.wave-right-desk{
+    position: absolute;
+    width: 27vw;
+    height: 32vw;
+    right:0;
+    top: 10vh;
+} 
+
+.border{
+    width: 10vw;
+    position: absolute;
+    height: 1px;
+    background-color: white;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top:7%;
+    padding-right: 3%;
+}
+
+.container-1 h1{
+    font: 300 3.7em "DM Serif Display", serif;
+    line-height: 60px;
+}
+
+.container-1 p{
+    color: hsl(0, 11%, 89%);
+    line-height: 25px;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.container-1 button{
+    margin-top: 4%;
+    width:130px;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.container-1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.container-2{
+    width: 98%;
+}
+
+.people--mobile{
+    display: none;
+}
+
+.container-2__people{
+    width: 90%;
+    min-width: 360px;
+}
+
+.border-2{
+    width: 10vw;
+    height: 1px;
+    position: relative;
+    top: 21vw;
+    left: 10%;
+    background-color:hsl(0, 0%, 47%);
+}
+
+.sec-two{
+    margin-top: 25%;
+    padding: 0 10%;
+}
+
+.sec-two h1{
+    font: 300 3.8em "DM Serif Display", serif;
+}
+
+.sec-two__cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    gap:3%;
+}
+
+.cards h3{
+    font:400 1.7em "DM Serif Display", serif; 
+    margin: 16px 0;
+}
+
+.cards p{
+    color:hsl(0, 0%, 47%);
+    line-height: 25px;
+}
+
+.sec-work{
+    width: 80%;
+    margin-top: 15%;
+    margin: 10% auto;
+    background-color: #2d2640;
+    padding: 5%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-work__wave-right-desk{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 100%;
+}
+
+.sec-work h1{
+    color: white;
+    font:300 3.4em "DM Serif Display", serif; 
+    line-height: 50px;
+}
+
+.sec-work__btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    z-index: 1;
+}
+
+.sec-work__btn:hover{
+    background-color:white;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    padding: 5% 0%;
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+}
+
+.container-network__wave-desk{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.container-network{
+    width:80%;
+    margin: auto;
+    z-index:1;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2%;
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+}
+
+.network__logo{
+    max-height: 20px;
+    position: absolute;
+    left: 10%;
+}
+
+.network__menu{
+    display: none;
+}
+
+.network__item{
+    display: inline-block;
+}
+
+.network__item a{
+    color: hsl(0, 0%, 47%);
+    font-size: 22px;
+    margin: 0 8px;
+}
+
+.footer__list{
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    gap: 17%;
+    font:bold 0.9em karla, sans-serif;
+    position:relative
+}
+
+.footer__list ul{
+    list-style: none;
+}
+
+.footer__item{
+    line-height: 35px;
+}
+
+.footer__item a{
+    color: black;
+}
+
+.footer__item a:hover{
+    border-bottom: 1px solid black;
+}
+
+.item--gray{
+    margin-bottom: 25px;
+}
+
+.item--gray a{
+    color: #787878;
+}
+
+.item--gray a:hover{
+    border-color:#787878;
+}
